@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		227976491A42414C004B1964 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227976481A42414C004B1964 /* Foundation.framework */; };
+		2279764B1A42414C004B1964 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279764A1A42414C004B1964 /* CoreGraphics.framework */; };
+		2279764D1A42414C004B1964 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279764C1A42414C004B1964 /* UIKit.framework */; };
+		227976531A42414C004B1964 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 227976511A42414C004B1964 /* InfoPlist.strings */; };
+		227976551A42414C004B1964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 227976541A42414C004B1964 /* main.m */; };
+		227976591A42414C004B1964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 227976581A42414C004B1964 /* AppDelegate.m */; };
+		2279765C1A42414C004B1964 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2279765A1A42414C004B1964 /* Main_iPhone.storyboard */; };
+		2279765F1A42414C004B1964 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2279765D1A42414C004B1964 /* Main_iPad.storyboard */; };
+		227976621A42414C004B1964 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227976611A42414C004B1964 /* ViewController.m */; };
+		227976641A42414C004B1964 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227976631A42414C004B1964 /* Images.xcassets */; };
+		2279766B1A42414C004B1964 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279766A1A42414C004B1964 /* XCTest.framework */; };
+		2279766C1A42414C004B1964 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227976481A42414C004B1964 /* Foundation.framework */; };
+		2279766D1A42414C004B1964 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279764C1A42414C004B1964 /* UIKit.framework */; };
+		227976751A42414C004B1964 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 227976731A42414C004B1964 /* InfoPlist.strings */; };
+		227976771A42414C004B1964 /* trabalhoIOSbasicoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 227976761A42414C004B1964 /* trabalhoIOSbasicoTests.m */; };
+		227976821A4258AB004B1964 /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227976811A4258AB004B1964 /* FormViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2279766E1A42414C004B1964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2279763D1A42414C004B1964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227976441A42414C004B1964;
+			remoteInfo = trabalhoIOSbasico;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		227976451A42414C004B1964 /* trabalhoIOSbasico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trabalhoIOSbasico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		227976481A42414C004B1964 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2279764A1A42414C004B1964 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2279764C1A42414C004B1964 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		227976501A42414C004B1964 /* trabalhoIOSbasico-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "trabalhoIOSbasico-Info.plist"; sourceTree = "<group>"; };
+		227976521A42414C004B1964 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		227976541A42414C004B1964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		227976561A42414C004B1964 /* trabalhoIOSbasico-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "trabalhoIOSbasico-Prefix.pch"; sourceTree = "<group>"; };
+		227976571A42414C004B1964 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		227976581A42414C004B1964 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2279765B1A42414C004B1964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2279765E1A42414C004B1964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		227976601A42414C004B1964 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		227976611A42414C004B1964 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		227976631A42414C004B1964 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		227976691A42414C004B1964 /* trabalhoIOSbasicoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trabalhoIOSbasicoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2279766A1A42414C004B1964 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		227976721A42414C004B1964 /* trabalhoIOSbasicoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "trabalhoIOSbasicoTests-Info.plist"; sourceTree = "<group>"; };
+		227976741A42414C004B1964 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		227976761A42414C004B1964 /* trabalhoIOSbasicoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = trabalhoIOSbasicoTests.m; sourceTree = "<group>"; };
+		227976801A4258AB004B1964 /* FormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormViewController.h; sourceTree = "<group>"; };
+		227976811A4258AB004B1964 /* FormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227976421A42414C004B1964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2279764B1A42414C004B1964 /* CoreGraphics.framework in Frameworks */,
+				2279764D1A42414C004B1964 /* UIKit.framework in Frameworks */,
+				227976491A42414C004B1964 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227976661A42414C004B1964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2279766B1A42414C004B1964 /* XCTest.framework in Frameworks */,
+				2279766D1A42414C004B1964 /* UIKit.framework in Frameworks */,
+				2279766C1A42414C004B1964 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2279763C1A42414C004B1964 = {
+			isa = PBXGroup;
+			children = (
+				2279764E1A42414C004B1964 /* trabalhoIOSbasico */,
+				227976701A42414C004B1964 /* trabalhoIOSbasicoTests */,
+				227976471A42414C004B1964 /* Frameworks */,
+				227976461A42414C004B1964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		227976461A42414C004B1964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227976451A42414C004B1964 /* trabalhoIOSbasico.app */,
+				227976691A42414C004B1964 /* trabalhoIOSbasicoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227976471A42414C004B1964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				227976481A42414C004B1964 /* Foundation.framework */,
+				2279764A1A42414C004B1964 /* CoreGraphics.framework */,
+				2279764C1A42414C004B1964 /* UIKit.framework */,
+				2279766A1A42414C004B1964 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2279764E1A42414C004B1964 /* trabalhoIOSbasico */ = {
+			isa = PBXGroup;
+			children = (
+				227976571A42414C004B1964 /* AppDelegate.h */,
+				227976581A42414C004B1964 /* AppDelegate.m */,
+				2279765A1A42414C004B1964 /* Main_iPhone.storyboard */,
+				2279765D1A42414C004B1964 /* Main_iPad.storyboard */,
+				227976601A42414C004B1964 /* ViewController.h */,
+				227976611A42414C004B1964 /* ViewController.m */,
+				227976631A42414C004B1964 /* Images.xcassets */,
+				2279764F1A42414C004B1964 /* Supporting Files */,
+				227976801A4258AB004B1964 /* FormViewController.h */,
+				227976811A4258AB004B1964 /* FormViewController.m */,
+			);
+			path = trabalhoIOSbasico;
+			sourceTree = "<group>";
+		};
+		2279764F1A42414C004B1964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227976501A42414C004B1964 /* trabalhoIOSbasico-Info.plist */,
+				227976511A42414C004B1964 /* InfoPlist.strings */,
+				227976541A42414C004B1964 /* main.m */,
+				227976561A42414C004B1964 /* trabalhoIOSbasico-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		227976701A42414C004B1964 /* trabalhoIOSbasicoTests */ = {
+			isa = PBXGroup;
+			children = (
+				227976761A42414C004B1964 /* trabalhoIOSbasicoTests.m */,
+				227976711A42414C004B1964 /* Supporting Files */,
+			);
+			path = trabalhoIOSbasicoTests;
+			sourceTree = "<group>";
+		};
+		227976711A42414C004B1964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227976721A42414C004B1964 /* trabalhoIOSbasicoTests-Info.plist */,
+				227976731A42414C004B1964 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227976441A42414C004B1964 /* trabalhoIOSbasico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2279767A1A42414C004B1964 /* Build configuration list for PBXNativeTarget "trabalhoIOSbasico" */;
+			buildPhases = (
+				227976411A42414C004B1964 /* Sources */,
+				227976421A42414C004B1964 /* Frameworks */,
+				227976431A42414C004B1964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trabalhoIOSbasico;
+			productName = trabalhoIOSbasico;
+			productReference = 227976451A42414C004B1964 /* trabalhoIOSbasico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		227976681A42414C004B1964 /* trabalhoIOSbasicoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2279767D1A42414C004B1964 /* Build configuration list for PBXNativeTarget "trabalhoIOSbasicoTests" */;
+			buildPhases = (
+				227976651A42414C004B1964 /* Sources */,
+				227976661A42414C004B1964 /* Frameworks */,
+				227976671A42414C004B1964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2279766F1A42414C004B1964 /* PBXTargetDependency */,
+			);
+			name = trabalhoIOSbasicoTests;
+			productName = trabalhoIOSbasicoTests;
+			productReference = 227976691A42414C004B1964 /* trabalhoIOSbasicoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2279763D1A42414C004B1964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = utfpr;
+				TargetAttributes = {
+					227976681A42414C004B1964 = {
+						TestTargetID = 227976441A42414C004B1964;
+					};
+				};
+			};
+			buildConfigurationList = 227976401A42414C004B1964 /* Build configuration list for PBXProject "trabalhoIOSbasico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2279763C1A42414C004B1964;
+			productRefGroup = 227976461A42414C004B1964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227976441A42414C004B1964 /* trabalhoIOSbasico */,
+				227976681A42414C004B1964 /* trabalhoIOSbasicoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227976431A42414C004B1964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2279765F1A42414C004B1964 /* Main_iPad.storyboard in Resources */,
+				227976641A42414C004B1964 /* Images.xcassets in Resources */,
+				2279765C1A42414C004B1964 /* Main_iPhone.storyboard in Resources */,
+				227976531A42414C004B1964 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227976671A42414C004B1964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227976751A42414C004B1964 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227976411A42414C004B1964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227976621A42414C004B1964 /* ViewController.m in Sources */,
+				227976591A42414C004B1964 /* AppDelegate.m in Sources */,
+				227976821A4258AB004B1964 /* FormViewController.m in Sources */,
+				227976551A42414C004B1964 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227976651A42414C004B1964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227976771A42414C004B1964 /* trabalhoIOSbasicoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2279766F1A42414C004B1964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227976441A42414C004B1964 /* trabalhoIOSbasico */;
+			targetProxy = 2279766E1A42414C004B1964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		227976511A42414C004B1964 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227976521A42414C004B1964 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2279765A1A42414C004B1964 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2279765B1A42414C004B1964 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2279765D1A42414C004B1964 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2279765E1A42414C004B1964 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		227976731A42414C004B1964 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227976741A42414C004B1964 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227976781A42414C004B1964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		227976791A42414C004B1964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2279767B1A42414C004B1964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "trabalhoIOSbasico/trabalhoIOSbasico-Prefix.pch";
+				INFOPLIST_FILE = "trabalhoIOSbasico/trabalhoIOSbasico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2279767C1A42414C004B1964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "trabalhoIOSbasico/trabalhoIOSbasico-Prefix.pch";
+				INFOPLIST_FILE = "trabalhoIOSbasico/trabalhoIOSbasico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2279767E1A42414C004B1964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/trabalhoIOSbasico.app/trabalhoIOSbasico";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "trabalhoIOSbasico/trabalhoIOSbasico-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "trabalhoIOSbasicoTests/trabalhoIOSbasicoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2279767F1A42414C004B1964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/trabalhoIOSbasico.app/trabalhoIOSbasico";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "trabalhoIOSbasico/trabalhoIOSbasico-Prefix.pch";
+				INFOPLIST_FILE = "trabalhoIOSbasicoTests/trabalhoIOSbasicoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227976401A42414C004B1964 /* Build configuration list for PBXProject "trabalhoIOSbasico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227976781A42414C004B1964 /* Debug */,
+				227976791A42414C004B1964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2279767A1A42414C004B1964 /* Build configuration list for PBXNativeTarget "trabalhoIOSbasico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2279767B1A42414C004B1964 /* Debug */,
+				2279767C1A42414C004B1964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2279767D1A42414C004B1964 /* Build configuration list for PBXNativeTarget "trabalhoIOSbasicoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2279767E1A42414C004B1964 /* Debug */,
+				2279767F1A42414C004B1964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2279763D1A42414C004B1964 /* Project object */;
+}
