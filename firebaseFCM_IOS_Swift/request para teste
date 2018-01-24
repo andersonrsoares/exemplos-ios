@@ -1,0 +1,34 @@
+https://fcm.googleapis.com/fcm/send
+Authorization => key=AIzaSyDDI8wfeSnThcQ05m4I2pmyhzKs55ikobk
+Content-Type => application/json
+
+teste com topics
+
+{
+    "to": "/topics/general",
+    "data": {
+      "message": "This is a GCM Topic Message!"
+     },
+    "notification": {
+    "body": "Fire base teste",
+    "badge": "1",
+    "sound" : ""
+    },
+    "content_available" : true,
+    "priority": "high"
+ }
+
+teste com ids
+
+ {
+    "notification": {
+    "body": "Fire base teste",
+    "badge": "1",
+    "sound" : ""
+    },
+    "registration_ids": [
+        "eOQEVvvqlfE:APA91bGUFl8VmXoxyBagzhweSzEnhdjxpBXer4i5CVelmOBNztqghmJWCABKvp-pBybsG60eOgx-ol4e1CJWb-HHbmMVfsyNRdvRA-hMJFIIxagleKALNmFvcMD6dQBSITxjW47LIxEC"
+    ],
+    "content_available" : true,
+    "priority": "high"
+}
