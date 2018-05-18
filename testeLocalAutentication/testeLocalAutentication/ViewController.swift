@@ -98,39 +98,96 @@ class ViewController: UIViewController {
                     self.refresh.alpha = 1
                 })
                 
-                guard success else {
+                guard success else {s
                     guard let error = error else {
                         self.showUnexpectedErrorMessage()
                         return
                     }
-                    switch(error) {
-                    case LAError.authenticationFailed:
-                        self.message.text = "There was a problem verifying your identity."
-                    case LAError.userCancel:
-                        self.message.text = "Authentication was canceled by user."
-                        // Fallback button was pressed and an extra login step should be implemented for iOS 8 users.
-                    // By the other hand, iOS 9+ users will use the pasccode verification implemented by the own system.
-                    case LAError.userFallback:
-                        self.message.text = "The user tapped the fallback button (Fuu!)"
-                    case LAError.systemCancel:
-                        self.message.text = "Authentication was canceled by system."
-                    case LAError.passcodeNotSet:
-                        self.message.text = "Passcode is not set on the device."
-                    case LAError.touchIDNotAvailable:
-                        self.message.text = "Touch ID is not available on the device."
-                    case LAError.touchIDNotEnrolled:
-                        self.message.text = "Touch ID has no enrolled fingers."
-                    // iOS 9+ functions
-                    case LAError.touchIDLockout:
-                        self.message.text = "There were too many failed Touch ID attempts and Touch ID is now locked."
-                    case LAError.appCancel:
-                        self.message.text = "Authentication was canceled by application."
-                    case LAError.invalidContext:
-                        self.message.text = "LAContext passed to this call has been previously invalidated."
-                    // MARK: IMPORTANT: There are more error states, take a look into the LAError struct
-                    default:
-                        self.message.text = "Touch ID may not be configured"
-                        break
+                    if #available(iOS 11.0, *) {
+                        switch(error) {
+                        case LAError.authenticationFailed:
+                            self.message.text = "There was a problem verifying your identity."
+                        case LAError.userCancel:
+                            self.message.text = "Authentication was canceled by user."
+                            // Fallback button was pressed and an extra login step should be implemented for iOS 8 users.
+                        // By the other hand, iOS 9+ users will use the pasccode verification implemented by the own system.
+                        case LAError.userFallback:
+                            self.message.text = "The user tapped the fallback button (Fuu!)"
+                        case LAError.systemCancel:
+                            self.message.text = "Authentication was canceled by system."
+                        case LAError.passcodeNotSet:
+                            self.message.text = "Passcode is not set on the device."
+                        case LAError.touchIDNotAvailable:
+                            self.message.text = "Touch ID is not available on the device."
+                        case LAError.touchIDNotEnrolled:
+                            self.message.text = "Touch ID has no enrolled fingers."
+                        // iOS 9+ functions
+                        case LAError.touchIDLockout:
+                            self.message.text = "There were too many failed Touch ID attempts and Touch ID is now locked."
+                            
+                        case LAError.biometryNotAvailable:
+                            self.message.text = "biometry is not available on the device."
+                            
+                        case LAError.biometryNotEnrolled:
+                            self.message.text = "biometry has no enrolled."
+                            
+                        case LAError.biometryLockout:
+                            self.message.text = "here were too many failed biometry attempts and biometry is now locked."
+                            
+                        case LAError.touchIDNotEnrolled:
+                            self.message.text = "Touch ID has no enrolled fingers."
+                        // iOS 9+ functions
+                        case LAError.touchIDLockout:
+                            self.message.text = "There were too many failed Touch ID attempts and Touch ID is now locked."
+                            
+                        case LAError.appCancel:
+                            self.message.text = "Authentication was canceled by application."
+                        case LAError.invalidContext:
+                            self.message.text = "LAContext passed to this call has been previously invalidated."
+                            // MARK: IMPORTANT: There are more error states, take a look into the LAError struct
+                            
+                        default:
+                            self.message.text = "Touch ID may not be configured"
+                            break
+                        }
+                    } else {
+                        switch(error) {
+                        case LAError.authenticationFailed:
+                            self.message.text = "There was a problem verifying your identity."
+                        case LAError.userCancel:
+                            self.message.text = "Authentication was canceled by user."
+                            // Fallback button was pressed and an extra login step should be implemented for iOS 8 users.
+                        // By the other hand, iOS 9+ users will use the pasccode verification implemented by the own system.
+                        case LAError.userFallback:
+                            self.message.text = "The user tapped the fallback button (Fuu!)"
+                        case LAError.systemCancel:
+                            self.message.text = "Authentication was canceled by system."
+                        case LAError.passcodeNotSet:
+                            self.message.text = "Passcode is not set on the device."
+                        case LAError.touchIDNotAvailable:
+                            self.message.text = "Touch ID is not available on the device."
+                        case LAError.touchIDNotEnrolled:
+                            self.message.text = "Touch ID has no enrolled fingers."
+                        // iOS 9+ functions
+                        case LAError.touchIDLockout:
+                            self.message.text = "There were too many failed Touch ID attempts and Touch ID is now locked."
+                        case LAError.touchIDNotEnrolled:
+                            self.message.text = "Touch ID has no enrolled fingers."
+                        // iOS 9+ functions
+                        case LAError.touchIDLockout:
+                            self.message.text = "There were too many failed Touch ID attempts and Touch ID is now locked."
+                            
+                        case LAError.appCancel:
+                            self.message.text = "Authentication was canceled by application."
+                        case LAError.invalidContext:
+                            self.message.text = "LAContext passed to this call has been previously invalidated."
+                            // MARK: IMPORTANT: There are more error states, take a look into the LAError struct
+                            
+                            
+                        default:
+                            self.message.text = "Touch ID may not be configured"
+                            break
+                        }
                     }
                     return
                 }
