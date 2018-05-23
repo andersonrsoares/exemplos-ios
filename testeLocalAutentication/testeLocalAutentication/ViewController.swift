@@ -98,7 +98,7 @@ class ViewController: UIViewController {
                     self.refresh.alpha = 1
                 })
                 
-                guard success else {s
+                guard success else {
                     guard let error = error else {
                         self.showUnexpectedErrorMessage()
                         return
